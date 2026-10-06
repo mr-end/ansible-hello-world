@@ -1,0 +1,17 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: caixa_collection.caixa_project
+  description: Just a Hello World
+  tags:
+    - ansible
+    - playbook
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: mr-end/ansible-hello-world
+spec:
+  type: playbook-project
+  system: system:default/postit-tasks
+  lifecycle: production
+  owner: user:default/victorfim
