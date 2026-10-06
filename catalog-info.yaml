@@ -10,6 +10,7 @@ metadata:
   annotations:
     backstage.io/techdocs-ref: dir:.
     github.com/project-slug: mr-end/ansible-hello-world
+    ansible.com/job-template-id: "8"
 spec:
   type: playbook-project
   system: system:default/postit-tasks
